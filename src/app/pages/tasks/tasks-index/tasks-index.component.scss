@@ -1,0 +1,42 @@
+.tast-item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 0.75rem;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    .tast-item-checkbox{
+        transform: scale(2.2);
+
+    	&:hover{
+    		cursor: pointer;
+    	}
+    }
+    .tast-item-edit{
+        width: 35px;
+        svg{
+            margin-top: -7px;
+        }
+
+
+        &:hover{
+            cursor: pointer;
+            color: #000;
+        }
+        
+    }
+    .tast-item-title{
+
+    }
+    .tast-item-delete{
+        width: 35px;
+    	margin-left: auto;
+    	&:hover{
+    		cursor: pointer;
+            color: #000;
+    	}
+    }
+}
